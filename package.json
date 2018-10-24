@@ -1,0 +1,27 @@
+{
+  "name": "BitSrc-Understanding-Higher-Order-Functions-in-JavaScript",
+  "version": "1.0.0",
+  "author": "Stephen Asamoah",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "live-server": "^1.2.0",
+    "npx": "^10.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "scripts": {
+    "build": "webpack --env production",
+    "start": "live-server --no-browser",
+    "watch": "webpack --watch",
+    "serve": "webpack-dev-server --env development"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "description": ""
+}
